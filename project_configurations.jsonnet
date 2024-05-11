@@ -24,6 +24,8 @@ local noise_x_bounds_deviation = 50;
     "background_load_limit": 100, // performance tip: background_load_limit should devide number of background images
     "apply_misc_noise": true,
     "apply_dirt": true,
+    "apply_transform": true,
+    "fill_background": true,
     "output_directory": "output",
     "img_per_package": 6000
   },

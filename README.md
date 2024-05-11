@@ -35,8 +35,10 @@ use win_conf.json instead and remove jsonnet dependencies
     * With default parameters:\
     ```$ python3 main.py```
     * Override config parameters:\
-    ```$ python3 main.py --num_out_img 10000```\
-    ```$ python3 main.py --apply_misc_noise False```\
-    ```$ python3 main.py --apply_dirt False``` \
-    ```$ python3 main.py --output_directory 'output'``` (doesn't already exist) \
-    ```$ python3 main.py --img_per_package 8000```
+    ```$ python3 main.py --count 10000```\
+    ```$ python3 main.py --no-noise```\
+    ```$ python3 main.py --no-dirt``` \
+    ```$ python3 main.py --outdir 'output'``` (doesn't already exist) \
+    ```$ python3 main.py --no-transform``` \
+    ```$ python3 main.py --no-fill``` \
+    ```$ python3 main.py --package 8000```
